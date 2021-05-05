@@ -105,14 +105,14 @@ body {
     padding: 0px 10px;
   }
   
-  
+  /*
   @media screen and (max-width: 1200px) {
     .sidenav {padding-top: 0px;margin-top: 6%;}
     .sidenav a {font-size: 18px;}
 
   }
 
-  
+  */
   
   ::-webkit-scrollbar {
     width: 10px;
