@@ -106,9 +106,16 @@ body {
   }
   
   
-  @media screen and (max-width: 100px) {
-    .sidenav {padding-top: 0px;margin-top: 200%;}
+  @media screen and (max-width: 1200px) {
+    .sidenav {padding-top: 0px;margin-top: 6%;}
     .sidenav a {font-size: 18px;}
+
+  }
+
+  
+  @media screen and (max-width: 500px) {
+    .sidenav {padding-top: 0px;margin-top: 15%;}
+    .sidenav a {font-size: 14px;}
 
   }
   ::-webkit-scrollbar {
