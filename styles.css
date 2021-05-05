@@ -113,11 +113,7 @@ body {
   }
 
   
-  @media screen and (max-width: 500px) {
-    .sidenav {padding-top: 0px;margin-top: 15%;}
-    .sidenav a {font-size: 14px;}
-
-  }
+  
   ::-webkit-scrollbar {
     width: 10px;
   }
@@ -143,6 +139,7 @@ body {
     padding: 16px;
     font-size: 16px;
     border: none;
+    cursor: pointer;
   }
   
   
@@ -180,4 +177,57 @@ body {
   .dropdown:hover .dropbtn {background-color: #282828;}
   a:link {
     text-decoration: none;
+  }
+  .show {display:block;}
+  @media screen and (max-width: 500px) {
+    .sidenav {
+      padding-top: 0px;
+      margin-top: 12.5%;
+      width: 25%;
+    }
+    .sidenav a {font-size: 18px;margin: auto;}
+    .sidenav iframe{
+      width:70%;
+      height: 10%;
+    }
+    .navigation-bar li a{
+      font-size: small;
+      display: block;
+      color: #111;
+      margin-top: -30%;
+      margin-bottom: -10%;
+      padding-right: 1%;
+      padding: 0px;
+    }
+    #title{
+      visibility: hidden;
+    }
+    .navigation-bar img{
+      margin-left: 40%;
+      height: 70%;
+    }
+    .navigation-bar{
+      height: 50px;
+    }
+    .dropbtn{
+      background-color: #c0c0c0;
+      font-size: small;
+      color: #111;
+      margin-right: -17%;
+    }
+    .dropdown-content{
+      margin-left: 0%;
+      margin-top: 35%;
+      position:relative;
+      background-color: #d0d0d0;
+    }
+    .dropdown-content a{
+      margin-top: -10%;
+    }
+    .dropdown{
+      display: block;
+    }
+    .dropdown:hover .dropbtn {
+      background-color: #c5c5c5;}
+
   }
