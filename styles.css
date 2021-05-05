@@ -179,7 +179,7 @@ body {
     text-decoration: none;
   }
   .show {display:block;}
-  @media screen and (max-width: 1080px) {
+  @media only screen and (max-width: 1090px) {
     .sidenav {
       padding-top: 0px;
       margin-top: 12.5%;
